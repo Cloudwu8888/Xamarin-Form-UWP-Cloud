@@ -7,11 +7,11 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="ef5009ee-5252-4db8-ab95-ac43b7865b46" Publisher="CN=Dave" Version="1.0.0.0" ProcessorArchitecture="x86" />
-  <mp:PhoneIdentity PhoneProductId="ef5009ee-5252-4db8-ab95-ac43b7865b46" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Identity Name="63967vsclient.FileUploader" Publisher="CN=6B0E04BB-E44B-43CE-89DF-DBA5BC33E3A2" Version="1.1.0.0" ProcessorArchitecture="x86" />
+  <mp:PhoneIdentity PhoneProductId="ab8ef87a-ce81-4deb-85f2-0f3d27ee01fc" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
-    <DisplayName>FileUploader.UWP</DisplayName>
-    <PublisherDisplayName>Dave</PublisherDisplayName>
+    <DisplayName>FileUploader</DisplayName>
+    <PublisherDisplayName>vsclient</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Dependencies>
@@ -22,8 +22,8 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="FileUploader.UWP.exe" EntryPoint="FileUploader.UWP.App">
-      <uap:VisualElements DisplayName="FileUploader.UWP" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="FileUploader.UWP" BackgroundColor="transparent">
-        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" />
+      <uap:VisualElements DisplayName="FileUploader" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="FileUploader.UWP" BackgroundColor="transparent">
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"></uap:DefaultTile>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
       </uap:VisualElements>
     </Application>
@@ -31,6 +31,14 @@
   <Capabilities>
     <Capability Name="internetClient" />
   </Capabilities>
+  <Extensions>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>WatsonRegistrationUtility.dll</Path>
+        <ActivatableClass ActivatableClassId="WatsonRegistrationUtility.WatsonRegistrationManager" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+  </Extensions>
   <build:Metadata>
     <build:Item Name="SharedGUID" Value="{0D04AADA-8E17-4E6C-98B2-123331F14741}" />
     <build:Item Name="CodeSharingProject" Value="248F659F-DAC5-46E8-AC09-60EC9FC95053" />

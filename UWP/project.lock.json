@@ -81,6 +81,18 @@
           }
         }
       },
+      "Microsoft.Azure.Mobile.Push/0.13.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Azure.Mobile": "0.13.1"
+        },
+        "compile": {
+          "lib/uap10.0/Microsoft.Azure.Mobile.Push.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.Azure.Mobile.Push.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.0.1": {
         "type": "package",
         "dependencies": {
@@ -2651,6 +2663,18 @@
         },
         "build": {
           "build/uap10.0/Microsoft.Azure.Mobile.Crashes.targets": {}
+        }
+      },
+      "Microsoft.Azure.Mobile.Push/0.13.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Azure.Mobile": "0.13.1"
+        },
+        "compile": {
+          "lib/uap10.0/Microsoft.Azure.Mobile.Push.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.Azure.Mobile.Push.dll": {}
         }
       },
       "Microsoft.CSharp/4.0.1": {
@@ -5301,6 +5325,18 @@
         },
         "build": {
           "build/uap10.0/Microsoft.Azure.Mobile.Crashes.targets": {}
+        }
+      },
+      "Microsoft.Azure.Mobile.Push/0.13.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Azure.Mobile": "0.13.1"
+        },
+        "compile": {
+          "lib/uap10.0/Microsoft.Azure.Mobile.Push.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.Azure.Mobile.Push.dll": {}
         }
       },
       "Microsoft.CSharp/4.0.1": {
@@ -7989,6 +8025,18 @@
           "build/uap10.0/Microsoft.Azure.Mobile.Crashes.targets": {}
         }
       },
+      "Microsoft.Azure.Mobile.Push/0.13.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Azure.Mobile": "0.13.1"
+        },
+        "compile": {
+          "lib/uap10.0/Microsoft.Azure.Mobile.Push.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.Azure.Mobile.Push.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.0.1": {
         "type": "package",
         "dependencies": {
@@ -10646,6 +10694,18 @@
         },
         "build": {
           "build/uap10.0/Microsoft.Azure.Mobile.Crashes.targets": {}
+        }
+      },
+      "Microsoft.Azure.Mobile.Push/0.13.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Azure.Mobile": "0.13.1"
+        },
+        "compile": {
+          "lib/uap10.0/Microsoft.Azure.Mobile.Push.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.Azure.Mobile.Push.dll": {}
         }
       },
       "Microsoft.CSharp/4.0.1": {
@@ -13343,6 +13403,18 @@
           "build/uap10.0/Microsoft.Azure.Mobile.Crashes.targets": {}
         }
       },
+      "Microsoft.Azure.Mobile.Push/0.13.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Azure.Mobile": "0.13.1"
+        },
+        "compile": {
+          "lib/uap10.0/Microsoft.Azure.Mobile.Push.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.Azure.Mobile.Push.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.0.1": {
         "type": "package",
         "dependencies": {
@@ -16000,6 +16072,18 @@
         },
         "build": {
           "build/uap10.0/Microsoft.Azure.Mobile.Crashes.targets": {}
+        }
+      },
+      "Microsoft.Azure.Mobile.Push/0.13.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Azure.Mobile": "0.13.1"
+        },
+        "compile": {
+          "lib/uap10.0/Microsoft.Azure.Mobile.Push.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.Azure.Mobile.Push.dll": {}
         }
       },
       "Microsoft.CSharp/4.0.1": {
@@ -18706,6 +18790,21 @@
         "runtimes/win10-x86/lib/uap10.0/Microsoft.Azure.Mobile.Crashes.dll",
         "runtimes/win10-x86/lib/uap10.0/WatsonRegistrationUtility.winmd",
         "runtimes/win10-x86/native/WatsonRegistrationUtility.dll"
+      ]
+    },
+    "Microsoft.Azure.Mobile.Push/0.13.1": {
+      "sha512": "XVssIDAG/9/+BFVztrT0obrzKCpcHaX2rCkvQ8HyA9QBPp3hd+aDRbZZft2G68qV3/liry97fZd4uMlWNMmaig==",
+      "type": "package",
+      "path": "microsoft.azure.mobile.push/0.13.1",
+      "files": [
+        "lib/MonoAndroid403/Microsoft.Azure.Mobile.Push.Android.Bindings.dll",
+        "lib/MonoAndroid403/Microsoft.Azure.Mobile.Push.dll",
+        "lib/Xamarin.iOS10/Microsoft.Azure.Mobile.Push.dll",
+        "lib/Xamarin.iOS10/Microsoft.Azure.Mobile.Push.iOS.Bindings.dll",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Microsoft.Azure.Mobile.Push.dll",
+        "lib/uap10.0/Microsoft.Azure.Mobile.Push.dll",
+        "microsoft.azure.mobile.push.0.13.1.nupkg.sha512",
+        "microsoft.azure.mobile.push.nuspec"
       ]
     },
     "Microsoft.CSharp/4.0.1": {
@@ -27571,6 +27670,7 @@
       "Microsoft.Azure.Mobile >= 0.13.1",
       "Microsoft.Azure.Mobile.Analytics >= 0.13.1",
       "Microsoft.Azure.Mobile.Crashes >= 0.13.1",
+      "Microsoft.Azure.Mobile.Push >= 0.13.1",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 5.3.3",
       "WindowsAzure.Storage >= 8.1.4",
       "Xamarin.Forms >= 2.3.4.247"
@@ -27582,22 +27682,20 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "D:\\Users\\v-ruiywu\\Downloads\\AzureStorage\\UWP\\FileUploader.UWP.csproj",
+      "projectUniqueName": "D:\\Users\\v-ruiywu\\Source\\Repos\\Xamarin-Form-UWP-Cloud\\UWP\\FileUploader.UWP.csproj",
       "projectName": "FileUploader.UWP",
-      "projectPath": "D:\\Users\\v-ruiywu\\Downloads\\AzureStorage\\UWP\\FileUploader.UWP.csproj",
-      "projectJsonPath": "D:\\Users\\v-ruiywu\\Downloads\\AzureStorage\\UWP\\project.json",
+      "projectPath": "D:\\Users\\v-ruiywu\\Source\\Repos\\Xamarin-Form-UWP-Cloud\\UWP\\FileUploader.UWP.csproj",
+      "projectJsonPath": "D:\\Users\\v-ruiywu\\Source\\Repos\\Xamarin-Form-UWP-Cloud\\UWP\\project.json",
       "projectStyle": "ProjectJson"
     },
     "dependencies": {
       "Microsoft.Azure.Mobile": "0.13.1",
+      "Microsoft.Azure.Mobile.Analytics": "0.13.1",
       "Microsoft.Azure.Mobile.Crashes": "0.13.1",
+      "Microsoft.Azure.Mobile.Push": "0.13.1",
       "Microsoft.NETCore.UniversalWindowsPlatform": "5.3.3",
       "WindowsAzure.Storage": "8.1.4",
-      "Xamarin.Forms": "2.3.4.247",
-      "Microsoft.Azure.Mobile.Analytics": {
-        "target": "Package",
-        "version": "[0.13.1, )"
-      }
+      "Xamarin.Forms": "2.3.4.247"
     },
     "frameworks": {
       "uap10.0.10240": {}
